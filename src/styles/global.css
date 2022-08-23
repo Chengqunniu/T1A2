@@ -22,7 +22,7 @@ nav ul{
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-around;
-    margin: 3rem;
+    margin: 2rem;
 }
 
 nav a{

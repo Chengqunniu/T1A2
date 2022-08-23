@@ -83,16 +83,3 @@ footer{
 .bottom_container p{
     text-align: center;
 } */
-
-@media screen and (min-width: 1200px){
-    /* nav ul{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 3rem;
-        padding-right: 3rem;
-    } */
-    .info_container{
-        padding-top: 3rem;
-    }
-}
