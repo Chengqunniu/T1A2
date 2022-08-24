@@ -1,0 +1,99 @@
+.article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    padding: 0 10vw;
+}
+
+.article header{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.article img{
+    width: 90%;
+    height: 72vw;
+    padding-bottom: 1.5rem;
+}
+
+.article h1{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.article h4{
+    width: 100%;
+    text-align: center;
+    font-size: clamp(1rem, 3.5vw, 1rem);
+}
+
+.content_container p{
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: 300;
+}
+
+.Button{
+    position: fixed;
+    top: 80vh;
+    background: grey;
+    margin: 0.5rem;
+    z-index: 99;
+    border: 0.5px solid grey;
+}
+
+.Button a{
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw,1.5rem);
+}
+
+.Button a:hover{
+    background-color: yellow;
+}
+
+@media screen and (min-width: 768px) and (max-width:1199px){
+    .article{
+        padding: 0 15vw;
+        margin-bottom: 7.5rem;
+    }
+
+    .article img{
+        width: 100%;
+        height: 70vw;
+        padding-bottom: 1rem;
+    }
+
+    .article .small-title{
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .article{
+        padding: 2rem 15vw;
+    }
+    .article header{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+        align-items: center;
+    }
+    .article img{
+        flex: 45%;
+        padding-bottom: 1.5rem;
+        order: 1;
+        height: 31.5vw;
+    }
+
+    .article .small-title{
+        flex: 50%;
+        text-align: center;
+    }
+    
+
+    
+}
