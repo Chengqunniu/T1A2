@@ -6,13 +6,13 @@ li:nth-of-type(4){
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 3rem 15vw;
+    padding: 0 15vw;
 }
 .info_container h1{
     width: 100%;
     text-align: center;
     margin: 0 0 2rem;
-    font-size: clamp(1rem, 8vw, 3rem);
+    font-size: clamp(1rem, 6vw, 3rem);
 }
 
 .info_container article{
@@ -23,7 +23,7 @@ li:nth-of-type(4){
 }
 
 .info_container article h2{
-    font-size: clamp(1rem, 4vw, 2.5rem);
+    font-size: clamp(1rem, 4vw, 2rem);
 }
 
 .info_container article img{
@@ -34,7 +34,8 @@ li:nth-of-type(4){
 
 .info_container article p{
     margin-bottom: 2rem;
-    font-size: clamp(1rem,3vw, 2rem);
+    font-size: clamp(1rem,3vw, 1.5rem);
+    font-weight: 300;
 }
 
 .Button{
@@ -58,6 +59,7 @@ li:nth-of-type(4){
 @media screen and (min-width: 768px) and (max-width: 1199px){
     .info_container{
         justify-content: space-between;  
+        padding: 1.5rem 8vw;
     }
 
     .info_container header{
@@ -72,7 +74,7 @@ li:nth-of-type(4){
 @media screen and (min-width: 1200px){
     .info_container{
         justify-content: space-between;  
-        padding: 3rem 10vw;
+        padding: 3rem 5vw;
     }
 
     .info_container header{
