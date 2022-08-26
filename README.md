@@ -8,26 +8,26 @@
 
 ---
 
-This portfolio is to demonstrate my skills, personality and background with the aim of acting as a resume to promote myself in the IT filed.
+This portfolio is to demonstrate my skills, personality and background with the aim of acting as a resume to promote myself in the IT field.
 
 ## Functionality
 
 ---
 
-The website using semantic elements and is made responsive to mobile, tablet and desktop. Each page has nav bars on the top and bottom, that links to different pages and  professional social accounts. These links will enlarge to let the customers know that they are links. The top nav bar will also underline the current page to let the customers know which page they are currently viewing.
+The website using semantic elements and is made responsive to mobile, tablet and desktop. Each page has nav bars on the top and bottom, links to different pages and  professional social accounts. These links will enlarge to let the customers know that they are links. The top nav bar will also underline the current page name to let the customers know which page they are currently viewing.
 
-The website is also responsive by adding media queries 768px and 1200px. Below 768px is for mobile, between 768px and 1200px is for tablet, and higher than 1200px is for desktop.
+The website is also responsive by adding media queries at 768px and 1200px. Below 768px is for mobile, between 768px and 1200px is for tablet, and higher than 1200px is for desktop.
 
 - Index page:
   Lnading page with my important personal information, such as name, title, contact information. I have also put a cute selfie in this page to show some of my personalities.
 
 - About me page:
-  This page inlcludes a picture of myself, personal story, my background, previous work experience, study history and resume.
+  This page inlcludes a picture of myself, personal story, my background, previous work experience, study history and links to the resume.
 
 - Blogs page:
   This page includes all of my blog posts. It has been divided into two sections. The first section is for pinned blogs, which is the blogs that I want more audience to view first. Therefore I put them on the top.
   The second section is the rest of the blog posts, from most recent to the oldest.
-  I have horizontally positioned the image and the text content of each post. The reason for this design is that I want audience to view images, title, author, date and content at the same time without scrolling. This will help them to decided whether view in detail or not. This could be achieved by horizontally display. And also a blog post will normally contain lots of text content. Therefore, I have hidden the overlay text content. With this design, the space of each blog is limited and will be much more easier for mobile audience to view all of my blog posts. As resolution become higher, more text content will be displayed. Once it reach 1200px, it will show two blog posts per line.I have also set the maximum size of the image to avoid too large images.
+  I have horizontally positioned the image and the text content of each post. The reason for this design is that I want audience to view images, title, author, date and content at the same time without scrolling. This will help them to easily decided whether view in detail or not. Another reason is that a blog post will normally contain lots of text content. It is impossible to show all of them.  With this design, the space of each blog is limited and will be much more easier for mobile audience to view all of my blog posts. As resolution become higher, more text content will be displayed. Once it reach 1200px, it will show two blog posts per line.I have also set the maximum size of the image to avoid too large images.
   Each blog post can be click and link to their own page. The blog post will enlarge when hovered over.  A back to top button is placed on the bottom left part of the page as well.
 
 - Projects page:
@@ -35,7 +35,7 @@ The website is also responsive by adding media queries 768px and 1200px. Below 7
   As they are mocked projects, I did not link them to a separate page. Once I have my real project, I will update this part.
 
 - Single Blog post page:
-  This page contains information of a Single Blog post. Has responsive deisgn as well. One thing different to the blogs page is that when moving from mobile to tablet and from tablet to desktop, the size of content especially the image become slightly smaller. The aim of this is to aoivd ongoing increase the size of the content, otherwise the content will become too big with higher resolution.
+  This page contains information of a single blog post. Has responsive deisgn as well. One thing different to the blogs page is that when moving from mobile to tablet and from tablet to desktop, the size of content especially the image become slightly smaller. The aim of this is to aoivd ongoing increase the size of the content, otherwise the content will become too big with higher resolution.
 
 ## Sitemap
 
