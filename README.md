@@ -4,6 +4,8 @@
 
 **Link to the GitHub Repository: [GitHub Repository]( https://github.com/Chengqunniu/T1A2)**
 
+**Link to the Presentation: [Presentation](https://youtu.be/Bm_ACXOl3qQ)**
+
 ## Purpose
 
 ---
